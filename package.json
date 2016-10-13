@@ -1,0 +1,26 @@
+{
+  "name": "google-translator",
+  "version": "1.0.0",
+  "description": "Google Translate API for Free",
+  "main": "translator.js",
+  "keywords": [
+    "google",
+    "translator",
+    "free",
+    "api",
+    "translate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/731MY/google-translator.git"
+  },
+  "author": {
+    "name": "Helmy Al Dobhany",
+    "email": "i@731my.com",
+    "url": "http://731my.com"
+  },
+  "bugs": {
+    "url": "https://github.com/731MY/google-translator/issues"
+  },
+  "license": "MIT"
+}
