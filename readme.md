@@ -1,4 +1,4 @@
-# (google-translator) Google Translator API for FREE
+﻿# (google-translator) Google Translator API for FREE
 
 Translate with google for FREE without *API key* 
 
@@ -38,14 +38,14 @@ output :
             ]
         ],
         "pronunciation":[
-            "he?l?,h??l?"
+            "heˈlō,həˈlō"
         ],
         "definitions":[
             {
                 "type":"noun",
                 "definitions":[
                     {
-                        "definition":"an utterance of �hello�; a greeting.",
+                        "definition":"an utterance of “hello”; a greeting.",
                         "example":"she was getting polite nods and hellos from people"
                     }
                 ]
@@ -63,21 +63,51 @@ output :
                 "type":"verb",
                 "definitions":[
                     {
-                        "definition":"say or shout �hello�; greet someone.",
-                        "example":"�Hi Kirsten,� he helloed , obviously calling me Kirsten on purpose."
+                        "definition":"say or shout “hello”; greet someone.",
+                        "example":"‘Hi Kirsten,’ he helloed , obviously calling me Kirsten on purpose."
                     }
                 ]
             }
         ],
         "examples":[
             "But - hello - they're only 15, and they're only playing at being grown up.",
-			...
-		]
+            "You are supposed to be able to keep up with my voice, hello !",
+            "I said hello to him",
+            "She must have been really stupid to have mimicked me… I mean, hello !",
+            "So Bob, if you are out there, drop in and say hello !",
+            "I mean - hello - this is just kind of a witty, fun movie.",
+            "I mean, not that we have that all the time, coz hello !",
+            "Umm… hello , the world just ended, everyone seems bizarrely unaffected, like the predicted deep freeze has already reached their brains.",
+            "I have wanted to re-watch it like a DVD or something, but I couldn't because, hello !",
+            "I yelled hello upstairs as I began to head up to see if I could help Mrs. Bishop out.",
+            "It was a pleasant surprise when Sheila Sheridan came over to say hello .",
+            "I haven't seen her in over a year, and yesterday she just strolls casually up to me and says hello !",
+            "A man standing in line at the check-out counter of a grocery store was surprised when an attractive woman behind him said hello .",
+            "I was stunned and I said I'm surprised anyone says hello to me ever in the mall or in the store after reading that.",
+            "They sit in classrooms and cannot hear the teachers so, hello , it is no surprise that we are unable to get good outcomes from our education system.",
+            "Quentin is surprised to see Maggie, and says hello .",
+            "Ships' horns toot, children wave and call hello , and every morning you're awakened by the haunting call of the muezzin from some distant village mosque.",
+            "Logan didn't say hello , but I hadn't expected a greeting.",
+            "hello! did you even get what the play was about?",
+            "We didn't get the chance to get together this visit, but we had nice phone conversation and a waved hello .",
+            "But we had a surprise in store for Caroline when we said hello after the show.",
+            "She whispered hello , then began to make her way to her room, where she hoped to take a nap.",
+            "hello, what's this?",
+            "Okay, so maybe costs rose by more than 1% in that period, and maybe sales dropped earlier in the year, but hello !",
+            "My second thought is, hello , it's still snowing!",
+            "It is extraordinary how much can be achieved when you put enthusiasm into a routine task, a special project or a simple hello or conversation.",
+            "Like we have time for a life - hello !",
+            "I thought it summed up what I wanted to say and it also is a way to say hello !",
+            "Tlingit people do not use such greetings as hello , good-bye, good afternoon, or good evening.",
+            "hello there, Katie!"
+        ]
     },
     "target":{
         "synonyms":[
             "Bonjour!",
-			...
+            "Salut!",
+            "Tiens!",
+            "Allô!"
         ]
     },
     "translations":[
@@ -116,7 +146,7 @@ output :
                     ]
                 ],
                 [
-                    "All�!",
+                    "Allô!",
                     [
                         "Hello!",
                         "Hullo!",
