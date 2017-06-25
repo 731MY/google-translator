@@ -22,6 +22,16 @@ translator('en' ,'fr' ,'Hello' ,response => {
 });
 ```
 
+You may also pass `undefined` as the origin language to have Google Translate auto-detect the input. For example:
+
+```javascript
+translator(undefined, 'en', 'ありがとう ございます', response => {
+    // Process the response here
+});
+```
+
+This will autodetect the language as Japanese and translate it from Japanese into English.
+
 output :
 
 ```
