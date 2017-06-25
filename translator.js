@@ -12,8 +12,12 @@ module.exports = (from ,to ,text ,callback) => {
 	
 	//var correctChineseLanguage = (lang) => { return lang= (lang=='zh-cn') ? 'zh-CN' : (lang=='zh-tw') ? 'zh-TW' : lang }
 	
-	from = from.toLowerCase();
-	to = to.toLowerCase();
+	if (from){
+		from = from.toLowerCase();
+	}
+	if (to){
+		to = to.toLowerCase();
+	}
 	
 	if(from == undefined || !(from in Languages)){
 		throw new Exception("from argument not in the available languages or its missin");
