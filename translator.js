@@ -18,18 +18,18 @@ module.exports = (from ,to ,text ,callback) => {
 	if (to){
 		to = to.toLowerCase();
 	}
-	
+
 	if(from == undefined || !(from in Languages)){
-		throw new Exception("from argument not in the available languages or its missin");
+		throw new Exception("Cannot translate from unknown language: " + from);
 	}
-	
+
 	if(to == undefined || !(to in Languages)){
-		throw new Exception("to argument not in the available languages or its missin");
+		throw new Exception("Cannot translate to unknown language: " + to);
 	}
 	
-	if(to == undefined || text.length == 0 ){
-		throw new Exception("text argument undefined or its empty");
-	}	
+	if (text == undefined || text.length == 0 ){
+		throw new Exception("Cannot translate undefined or empty text string");
+	}
 	
 	text = querystring.escape(text);
 	var options = {
