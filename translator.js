@@ -19,7 +19,11 @@ module.exports = (from ,to ,text ,callback) => {
 		to = to.toLowerCase();
 	}
 
-	if(from == undefined || !(from in Languages)){
+	var detectlanguage = false;
+
+	if (from == undefined){
+		detectlanguage = true;
+	} else if ( !(from in Languages) ){
 		throw new Exception("Cannot translate from unknown language: " + from);
 	}
 
@@ -35,7 +39,7 @@ module.exports = (from ,to ,text ,callback) => {
 	var options = {
 	  host: 'translate.google.com',
 	  port: 443,
-	  path: '/translate_a/single?client=gtx&ie=UTF-8&oe=UTF-8&sl='+from+'&tl='+to+'&dt=t&q='+text+'&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at',
+	  path: '/translate_a/single?client=gtx&ie=UTF-8&oe=UTF-8' + ( detectlanguage ? "" : '&sl=' + from ) + '&tl='+to+'&dt=t&q='+text+'&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at',
 	  headers:{
 			'Accept': 'application/json;charset=utf-8',
 			'Accept-Language': 'en-US,en;q=0.5',
