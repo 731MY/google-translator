@@ -70,7 +70,7 @@ module.exports = (from ,to ,text ,callback) => {
 				translations:[]
 			};
 			
-			if (content[7] != null ){
+			if (content[7] != null && content[7].length !== 0){
 				translated.isCorrect = false;
 				translated.text = content[7][1];
 			}else{
